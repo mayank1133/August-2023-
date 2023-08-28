@@ -10,22 +10,21 @@ void main()
 	{
 		HRA=BS*20/100;
 		DA=BS*80/100;
-		TS=BS+HRA+DA;
-		printf("TS=%lf",TS);
+		
 	}
 	else if(BS>=20000)
 	{
 	    HRA=BS*25/100;
 		DA=BS*90/100;
-		TS=BS+HRA+DA;
-		printf("TS=%lf",TS);
+		
 	}
 	else if(BS>=30000)
 	{
 	HRA=BS*30/100;
 		DA=BS*95/100;
-		TS=BS+HRA+DA;
-		printf("TS=%lf",TS);
+		
 	}
+	TS=BS+HRA+DA;
+		printf("TS=%lf",TS);
 	
 }
